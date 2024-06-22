@@ -1,0 +1,23 @@
+{
+  "name": "child-process",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "spawn": "node --loader ts-node/esm src/spawnChildProcess.ts",
+    "worker": "node --loader ts-node/esm  src/NodeWorker.ts",
+    "cluster": "node --loader ts-node/esm src/cluster.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.14.8"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "type": "module"
+}
